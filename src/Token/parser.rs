@@ -2102,11 +2102,9 @@ impl Parser {
                             
                             while !matches!(self.current(), Token::End | Token::Func | Token::EOF) {
                             
-                                if matches!(self.current(), Token::End) {
+                                if matches!(self.current(), Token::End | Token::Func) {
                                     break;
-                                } else if self.current() == Token::Func {
-                                    break;
-                                }
+                                } 
                                 
                                 body.push(self.parse_stmt());
                                 if self.current() == Token::Semicolon {
