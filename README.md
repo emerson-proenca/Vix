@@ -5,7 +5,7 @@ A fast, memory-safe programming language designed for both low-level and high-le
 ## How to install & Use
 > From website: Go to [offical website](https://vixlanguage.github.io/install) and then select your OS and press **Install**.
 To make a new project in vix:
-```toml
+```
 -- project_folder
 |- myfile.vix
 |- config.toml # optional
@@ -24,7 +24,7 @@ vix myfile.vix -o myapplication.exe
 - **Error handling & Help**: Easy to read & know the issues from the error msg
 
 ## Example helpful message:
-```toml
+```
 [Warning]: Warning, Unexpected type:
 | main.vix:10
 |
@@ -57,11 +57,7 @@ end
 
 Join our Discord for help and updates: https://discord.gg/CAemjRc4ya
 
-## 🎯 Why Vix?
-
-## 🎯 Language Comparison
-
-## 🎯 Language Comparison
+## > Why Vix?
 
 | Feature | Python | Lua | Rust | Zig | Nim | C | Vix |
 |---------|--------|-----|------|-----|-----|---|-----|
