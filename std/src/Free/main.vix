@@ -1,0 +1,5 @@
+public unsafe func free(ptr: ptr[void])
+    if ptr.is_null then return end
+
+    free(ptr)
+end

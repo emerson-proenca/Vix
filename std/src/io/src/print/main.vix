@@ -1,0 +1,3 @@
+public func print(msg: str)
+    printf("%s", msg)
+end
